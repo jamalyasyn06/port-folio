@@ -1,0 +1,117 @@
+
+    @media (max-width:650px) {
+     body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-image:linear-gradient(rgb(197, 197, 233),rgb(247, 239, 193));
+      color: #333;
+      direction: rtl;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    span{
+        display: block;
+    }
+    nav {
+      background-image:linear-gradient(to right ,rgb(92, 81, 81) ,rgb(104, 67, 67));
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    #about div{
+        display: flex;
+        max-width: 600px;
+        margin: auto;
+    }
+    #about img{
+      width: 150px;
+
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2{
+     margin-right: 15px;
+    }
+    .project {
+     
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-right: 5px solid #4CAF50;
+    }
+    footer {
+      background-image: linear-gradient(to left, rgb(31, 29, 18), rgb(16, 16, 26), rgb(43, 17, 17),rgb(14, 48, 24));
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    }
+    @media (min-width:651px) {
+           body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+       background-image:linear-gradient(rgb(197, 197, 233),rgb(247, 239, 193));
+      color: #333;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    #about div{
+        display: flex;
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    #about img{
+      width: 300px;
+
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2{
+     margin-right: 15px;
+    }
+    .project {
+     
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-right: 5px solid #4CAF50;
+    }
+    footer {
+       background-image: linear-gradient(to left, rgb(31, 29, 18), rgb(16, 16, 26), rgb(43, 17, 17),rgb(14, 48, 24) ,rgb(22, 59, 68), rgb(83, 32, 72),rgb(14, 48, 24));
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }  
+    }
